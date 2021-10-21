@@ -1,6 +1,6 @@
 name: Feature request
 description: Create a feature request
-labels: ["feature", "untriaged"]
+labels: ["feature", "T-needs-triage"]
 body:
   - type: textarea
     attributes:
