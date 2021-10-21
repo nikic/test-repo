@@ -1,22 +1,8 @@
 name: Bug report
 about: File a bug report
-title: ''
 labels: bug, untriaged
-assignees: ''
 body:
   - type: textarea
     attributes:
       label: Description
       description: "Please provide a minimal way to reproduce the problem and describe what the expected vs actual behavior is."
-    validations:
-      required: true
-  - type: input
-    attributes:
-      label: PHP Version
-      description: "The used PHP version. Make sure it is [supported](https://www.php.net/supported-versions.php)."
-      placeholder: "PHP 8.0.12"
-  - type: input
-    attributes:
-      label: Operating System
-      description: "The used operating system, if relevant."
-      placeholder: "Ubuntu 20.04"
