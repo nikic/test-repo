@@ -6,6 +6,20 @@ body:
     attributes:
       label: Description
       description: "Please provide a minimal way to reproduce the problem and describe what the expected vs actual behavior is."
+      value: |
+        The following code:
+             
+        ```php
+        <?php
+        ``` 
+         
+        Resulted in this output:
+        ```
+        ``` 
+         
+        But I expected this output instead:
+        ```
+        ```
     validations:
       required: true
   - type: input
