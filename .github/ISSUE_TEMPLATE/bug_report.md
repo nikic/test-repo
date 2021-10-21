@@ -1,25 +1,23 @@
 ---
 name: Bug report
-about: Something is broken
+about: File a bug report
 title: ''
 labels: bug, untriaged
 assignees: ''
-
----
-
-**Description**
-
-A clear and concise description of what the bug is.
-
-**Test Script**
-
-```
-<?php
-```
-
-**Expected result**
-
-**Actual result**
-
-**PHP Version**
-Make sure your PHP version is supported.
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: "Please provide a minimal way to reproduce the problem and describe what the expected vs actual behavior is."
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: PHP Version
+      description: "The used PHP version. Make sure it is [supported](https://www.php.net/supported-versions.php)."
+      placeholder: "PHP 8.0.12"
+  - type: input
+    attributes:
+      label: Operating System
+      description: "The used operating system, if relevant."
+      placeholder: "Ubuntu 20.04"
