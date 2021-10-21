@@ -27,6 +27,8 @@ body:
       label: PHP Version
       description: "The used PHP version. Make sure it is [supported](https://www.php.net/supported-versions.php)."
       placeholder: "PHP 8.0.12"
+    validations:
+      required: true
   - type: input
     attributes:
       label: Operating System
